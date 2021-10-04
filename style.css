@@ -1,0 +1,573 @@
+@font-face {
+    font-family: "PT Sans Narrow" ;
+    src: url(fonts/PTSansNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: "Sulphur Point";
+    src: url(fonts/SulphurPoint-Regular.ttf); 
+}
+@font-face {
+    font-family: "Mplus 1p";
+    src: url(fonts/MPLUS1p-Regular.ttf);
+}
+@font-face {
+    font-family: "Prata";
+    src: url(fonts/Prata-Regular.ttf);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html{
+    width: 1440px;
+}
+.rectangle1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 293.97px;
+    height: 274px;
+    z-index: 1;
+}
+.rectangle2{
+    position: absolute;
+    top: 181px;
+    left: 605.51px;
+    z-index: 1;
+}
+.rectangle7{
+    position: absolute;
+    top: 420px;
+    left: 9.28px;
+    z-index: 1;
+}
+.rectangle8{
+    position: absolute;
+    top: 0px;
+    left: 565.47px;
+    z-index: 1;
+}
+.rectangle9{
+    position: absolute;
+    top: 59px;
+    left: 1146.57px;
+    z-index: 1;
+}
+.rectangle11{
+    position: absolute;
+    top: 675px;
+    left: 998.12px;
+    z-index: 1;
+}
+.rectangle14{
+    position: absolute;
+    top: 864.33px;
+    left: 99.81px;
+    z-index: 1;
+}
+.rectangle15{
+    position: absolute;
+    top: 1305px;
+    left: 997.61px;
+    z-index: 1;
+}
+.rectangle16{
+    position: absolute;
+    top: 2896px;
+    left: 110.01px;
+    z-index: 1;
+}
+.rectangle17{
+    position: absolute;
+    top: 3685px;
+    left: 149.29px;
+    z-index: 1;
+}
+.rectangle18{
+    position: absolute;
+    top: 3117px;
+    left: 622.12px;
+    z-index: 1;
+}
+.rectangle19{
+    position: absolute;
+    top: 4481px;
+    left: 1101.84px;
+    z-index: 1;
+}
+.rectangle192{
+    position: absolute;
+    top: 4711px;
+    left: 0px;
+    z-index: 1;
+}
+.vector8{
+    position: absolute;
+    top: 636.5px;
+    left: 77.3px;
+    z-index: 1;
+}
+.vector9{
+    position: absolute;
+    top: 1034.5px;
+    left: 250.02px;
+    z-index: 1;
+}
+.vector10{
+    position: absolute;
+    top: 1508px;
+    left: 401.89px;
+    z-index: 1;
+}
+.vector11{
+    position: absolute;
+    top: 3095.5px;
+    left: 153.99px;
+    z-index: 1;
+}
+.vector12{
+    position: absolute;
+    top: 3805.5px;
+    left: 373.56px;
+    z-index: 1;
+}
+.substract{
+    position: absolute;
+    top: 52px;
+    left: 102px;
+    z-index: 2;
+}
+.header{
+    position: relative;
+    left: 661px;
+    width: 633px;
+    margin-top: 30px;
+    font-family: "PT Sans Narrow";
+    font-size: 20px;
+    line-height: 25.88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+}
+.rectangle5{
+    position: absolute;
+    z-index: 2;
+    top:39px;
+    left:1214px;
+    width: 103px;
+    height: 49px;
+    box-shadow: 5px 15px 20px -10px green;
+}
+.titleBlock{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.titleText{
+    position: relative;
+    width: 560px;
+    z-index: 3;
+    margin-top: 180px;
+    margin-left:40px;
+}
+.textTamwyle{
+    font-family: "PT Sans Narrow" ;
+    font-size: 28px;
+    line-height: 36.23px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    color: #398495;
+}
+.teamWeb{
+    font-family: "Sulphur Point", "PT Sans Narrow";
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 72px;
+    margin: 0px;
+}
+.afterWeb{
+    font-family: "Sulphur Point", "PT Sans Narrow";
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    margin: 0px;
+}
+.portfolio{
+    position: absolute;
+    top: -7px;
+    left: 240px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    z-index: 3;
+}
+.order{
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    color:white;
+    z-index: 3;
+}
+.orderButtons{
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+    font-size: 16px;
+}
+.orderButton{
+    box-shadow: -6px 14px 20px -10px green;
+}
+.titleSocials{
+    position: relative;
+    top:-10px;
+}
+.titleImageBlock{
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.aboutUsText{
+    position: relative;
+    z-index: 3;
+    padding-top:100px;
+    padding-left: 150px;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+
+}
+.aboutUsPictures{
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.memoBoy19{
+    position:relative;
+    margin-left:60px;
+    width: 203px;
+    height: 207px;
+    z-index: 3;
+}
+.memoPanel{
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+}
+.memoText{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    z-index: 3;
+    margin-left: 20px;
+}
+.memoTitle{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.servicesText{
+    position: relative;
+    z-index: 3;
+    padding-top:60px;
+    padding-left: 1050px;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+}
+.greenmark{
+    list-style-image: url(images/Rectangle\ 20.png);
+    margin: 0px;   
+    position: relative;
+    left:28px;
+    margin-bottom: 12px;
+    margin: 20px;
+}
+.bluemark{
+    list-style-image: url(images/Rectangle\ 26.png);
+    margin: 0px;   
+    left: -35px;
+    position: relative;
+    margin: 20px;
+}
+.servicesBlock{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 24px;
+    z-index: 3;
+    margin-top: 140px;
+}
+.rebrandTitle{
+    font-size: 36px;
+    margin: 0px;
+    margin-top:30px;
+    position:relative;
+    color: #398495;
+}
+.creatingTitle{
+    font-size: 36px;
+    margin: 0px;
+    position:relative;
+    left:66px; 
+}
+.rebrand{
+    position: relative;
+    margin-left: 150px;
+}
+.creatingSite{
+    margin-left: 100px;
+}
+.orderButtons1{
+    position: relative;
+    z-index: 3;
+    margin-top: 40px;
+    margin-left:50px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.orderButtons2{
+    position: relative;
+    z-index: 3;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.orderButtonBlue{
+    box-shadow: -6px 14px 20px -10px #398495;
+}
+.layoutOrder{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 26px;
+    z-index: 2;
+    margin-top: 30px;
+}
+.layoutInnerText{
+    position: relative;
+    width: 600px;
+    height: 254px;
+}
+.orderHead{
+    position:absolute;
+    z-index: 3;
+    font-size: 42px;
+    left: 25.48px;
+    top:0px;
+    color: white;
+}
+.orderText{
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    left: 25.48px;
+    top:60px;
+    color: white;
+}
+.orderWhite{
+    position: absolute;
+    top:185px;
+    left:25.48px;
+    z-index: 3;
+    box-shadow: -6px 14px 20px -10px white;
+}
+.orderLayout{
+    position: absolute;
+    top: 185px;
+    left: 45px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    z-index: 3;
+}
+.ourTeam{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    margin-top: 110px;
+    margin-left: 150px;
+    z-index: 3;
+}
+.ourTeamProfile{
+    position: relative;
+    margin-top: 160px;
+    margin-left: 115px;
+    width: 1100px;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    z-index: 3;
+}
+.profileText{
+    position: relative;
+    width: 371px;
+    height: 440px;
+    margin-top: 80px;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;   
+}
+.profileName{
+    font-size: 42px;
+    line-height: 54.35px;
+    margin: 0px;
+}
+.profilePosition{
+    font-size: 32px;
+    line-height: 41.41px;
+    color: #398495;
+    margin: 0px;
+}
+.profileInfo{
+    font-size: 28px;
+    line-height: 36.23px;
+    margin-top: 10px;
+}
+.quote{
+    color:white;
+    text-shadow: rgb(88, 224, 202) 0 0 2px;
+    font-family: "Prata";
+    font-size: 248px;
+    line-height: 36px;
+    transform: rotate(-180deg);
+    z-index: 1;
+    margin-top: 80px;
+}
+.portfolio1{
+    position: relative;
+    margin-top: 140px;
+    margin-left: 170px;
+    font-family: "PT Sans Narrow";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;  
+    z-index: 3;  
+}
+.logoPortfolio{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+.logoPortfolioText{
+    position: absolute;
+    margin-top: 70px;
+    font-family: "PT Sans Narrow";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    color: white;
+    z-index: 4;
+}
+.blockWyle{
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    width: 726px;
+    margin-left: 80px;
+}
+.titleWyle{
+    font-size: 42px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.textWyle{
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.portfolioDesign{
+    position: relative;
+    z-index: 3;
+    margin-top: 30px;
+    margin-left: 100px ;
+}
+.samwyle{
+    display: flex;
+    flex-direction: row;
+
+}
+.tamwyle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.contactsCloud{
+    position: relative;
+    z-index: 3;
+    font-family: "PT Sans Narrow";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    margin-left: 1150px;
+}
+.footesLinks{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-family: "PT Sans Narrow";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 140px;
+}
+.footerTitleText{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footerText{
+    margin: 0px;
+    margin-top: 5px;
+}
+.copyright{
+    color: #398495;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.socialLinks{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.footerLogo{
+    margin-left: 25px;
+}
